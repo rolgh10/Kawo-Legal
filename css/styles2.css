@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(237, 236, 236);
+}
+
+.main-nav {
+    background-color: rgb(62, 2, 2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+}
+
+a {
+    color: rgb(189, 8, 8)
+}
+
+a.active {
+    border: 1px solid rgb(173, 3, 3);
+}
+
+li#active {
+    border-bottom: 1px solid #7A292A;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
+.imgs {
+    margin-left: 140px;
+}
+
+.search-color {
+    background-color: rgb(17, 179, 232);
+    color: white;
+}
+
+#basic-addon2 {
+    color: aliceblue;
+}
+
+.cleanfooter {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(62, 2, 2);
+    color: rgb(189, 8, 8);
+}
+
+.secondpara {
+    color: white;
+    padding-left: 100px;
+}
+
+.social {
+    padding-left: 450px;
+}
+
+hr {
+    border-top: 1px solid rgb(214, 214, 214);
+}
+
+.main-register-form {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.main-footer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

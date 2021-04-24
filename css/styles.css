@@ -1,0 +1,79 @@
+.background {
+    background-blend-mode: overlay;
+    background-color: #7A292A;
+    background-image: url("../image/1.jpg");
+    height: fit-content;
+}
+
+.main-content {
+    padding-bottom: 250px;
+}
+
+.main-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: rgb(189, 8, 8)
+}
+
+a.active {
+    border: 1px solid rgb(173, 3, 3);
+}
+
+li#active {
+    border-bottom: 1px solid #7A292A;
+}
+
+.mainheading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 120px;
+    color: white;
+    font-size: 40px;
+}
+
+.mainpara {
+    color: white;
+    font-size: 20px;
+}
+
+.main-home-button {
+    color: white;
+}
+
+.main-home-button :hover {
+    color: rgb(190, 231, 8);
+    text-decoration: none;
+}
+
+.cleanfooter {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(62, 2, 2);
+    color: rgb(189, 8, 8);
+}
+
+.secondpara {
+    color: white;
+    padding-left: 100px;
+}
+
+.mainpara1>p>a {
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.alignbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.social {
+    padding-left: 450px;
+}

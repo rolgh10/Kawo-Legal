@@ -1,0 +1,75 @@
+        body {
+            background-color: black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .mainhome {
+            padding-top: 40px;
+            padding-left: 100px;
+        }
+        
+        .about-text {
+            margin-top: 200px;
+        }
+        
+        .resume {
+            font-family: 'Montserrat';
+            color: #FC6100;
+        }
+        
+        .little-about {
+            color: white;
+            font-family: 'Montserrat';
+        }
+        
+        .button-image {
+            width: 45px;
+            height: 45px;
+            margin-top: 30px;
+        }
+        
+        .myimage {
+            width: 95%;
+            height: 30%;
+        }
+        
+        .button-image:hover {
+            border: 1px solid rgba(26, 255, 0, 0.6);
+            border-radius: 10em;
+            outline: 10px;
+            -webkit-box-shadow: inset 8px rgb(0, 255, 98), 0 0 8px rgb(0, 253, 13);
+            box-shadow: inset 5px rgb(52, 255, 1), 0 0 8px rgba(102, 255, 0, 0.6);
+        }
+        
+        #slide {
+            position: absolute;
+            left: -900px;
+            height: 100px;
+            -webkit-animation: slide 0.1s forwards;
+            -webkit-animation-delay: 1s;
+            animation: slide 0.9s forwards;
+            animation-delay: 1s;
+        }
+        
+        @-webkit-keyframes slide {
+            100% {
+                left: 0;
+            }
+        }
+        
+        @keyframes slide {
+            100% {
+                left: 0;
+            }
+        }
+        
+        #myimage :hover {
+            left: 20px;
+            top: -150px;
+        }
+        
+        .whole {
+            background-color: aliceblue;
+        }
